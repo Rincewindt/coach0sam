@@ -91,3 +91,12 @@ footer .socials a {
   color: #ffb400;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-item {
+    height: auto;
+  }
+}
